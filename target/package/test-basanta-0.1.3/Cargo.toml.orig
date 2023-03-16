@@ -1,0 +1,19 @@
+[package]
+name = "test-basanta"
+version = "0.1.3"
+edition = "2021"
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "README.md"
+]
+homepage = "https://github.com/BasantaChaulagain/rs-test-basanta.git"
+description = "Simple test crate"
+repository = "https://github.com/BasantaChaulagain/rs-test-basanta.git"
+keywords = ["test", "crate"]
+categories = ["test"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
