@@ -1,6 +1,6 @@
 [package]
-name = "test-basanta"
-version = "0.1.0"
+name = "basanta"
+version = "0.1.1"
 edition = "2021"
 include = [
     "src/**/*",
@@ -17,7 +17,4 @@ license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-thiserror = "1"
-clap = "2"
-walkdir = "2"
-file-size = "1"
+
