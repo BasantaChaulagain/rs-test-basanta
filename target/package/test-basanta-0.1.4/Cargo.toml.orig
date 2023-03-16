@@ -1,5 +1,5 @@
 [package]
-name = "basanta"
+name = "test-basanta"
 version = "0.1.4"
 edition = "2021"
 include = [
