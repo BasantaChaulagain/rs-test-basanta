@@ -1,8 +1,7 @@
 #![allow(unused)]
 
-mod argc;
+use lib;
 
-fn main() {
-    println!("Hello, world!");
-    argc::test_fun();
+fn main(){
+    lib::main_basanta::demo();
 }
