@@ -4,11 +4,13 @@ version = 3
 
 [[package]]
 name = "basanta"
-version = "0.1.1"
-dependencies = [
- "lib",
-]
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "85400b1ac5ac6f4211b7ac310aa8d78e15660e51a65f4d7fde0f6be42e029f0e"
 
 [[package]]
-name = "lib"
-version = "0.1.1"
+name = "test-basanta"
+version = "0.1.2"
+dependencies = [
+ "basanta",
+]

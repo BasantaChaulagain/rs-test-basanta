@@ -1,7 +1,7 @@
 #![allow(unused)]
 
-use lib;
+use basanta::main_basanta;
 
 fn main(){
-    lib::main_basanta::demo();
+    main_basanta::demo();
 }
